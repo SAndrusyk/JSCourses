@@ -1,8 +1,3 @@
-function sum(a,b){
-    return(a+b);
-}
-
-
 test('assertions', function() {
     equal(sum(4,7),11, 'positive + positive = positive');
     equal(sum(0,0),0, 'zero + zero = zero');
@@ -13,4 +8,4 @@ test('assertions', function() {
     equal(sum(Infinity,5),Infinity, 'Infinity + positive = Infinity');
     equal(sum(Infinity,-5),Infinity, 'Infinity + negative = Infinity');
     equal(sum(Infinity,Infinity),Infinity, 'Infinity + Infinity = Infinity');
-})
+});
